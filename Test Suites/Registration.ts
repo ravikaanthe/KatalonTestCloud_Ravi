@@ -15,31 +15,7 @@
       <guid>8d866da8-2bac-4312-9592-6d5bd2c6d9b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Cases Login registr/Registration Test - Local Variables</testCaseId>
+      <testCaseId>Test Cases/Lesson 21/Registration</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dd3d17d4-83d1-451a-a439-1826561ae2cb</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>07e54a14-eba0-440b-8ab6-ced2d55d2a5c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e72cdaf9-a9ef-42b1-82d2-0527adcba085</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>183209eb-744d-4932-9772-0ca0ca32422b</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
