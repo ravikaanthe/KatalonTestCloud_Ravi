@@ -21,9 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://example.testproject.io/web/')
 
+WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.setText(findTestObject('Object Repository/Login_Test/Page_TestProject Demo/input_Full Name_name'), UserName)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login_Test/Page_TestProject Demo/input_Password_password'), Password)
 
 WebUI.click(findTestObject('Object Repository/Login_Test/Page_TestProject Demo/button_Login'))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Registration_Test/Page_TestProject Demo/select_AfghanistanAlbaniaAlgeriaAmerican Sa_e5890c'), 
+    'India', true)
+
+WebUI.setText(findTestObject('Object Repository/Registration_Test/Page_TestProject Demo/input_Address_address'), Street)
+
+WebUI.setText(findTestObject('Object Repository/Registration_Test/Page_TestProject Demo/input_Email_email'), Email)
+
+WebUI.setText(findTestObject('Object Repository/Registration_Test/Page_TestProject Demo/input_Phone_phone'), Phone)
+
+WebUI.click(findTestObject('Object Repository/Registration_Test/Page_TestProject Demo/button_Save'))
+
+WebUI.closeBrowser()
+
+WebUI.click(findTestObject('Object Repository/Registration_Test/Page_TestProject Demo/button_Logout'))
 

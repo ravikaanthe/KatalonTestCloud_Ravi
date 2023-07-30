@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registration_MultiDataSources</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc06f2b1-9077-49fe-9ca4-fee85981e781</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9924e95e-19fe-4c66-8628-861c72eb3204</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b46d224-4068-4e4c-ae25-438c0b190299</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a61b348c-05cf-493d-9dc1-6586cfa578d9</id>
+      <masked>false</masked>
+      <name>Street</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8b599d3f-ca69-4ac7-a91a-73790e6ba0da</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>525e138c-474b-4a35-9ccb-99d091e77f3b</id>
+      <masked>false</masked>
+      <name>Phone</name>
+   </variable>
+</TestCaseEntity>
