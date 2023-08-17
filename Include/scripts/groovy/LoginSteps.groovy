@@ -52,6 +52,7 @@ class LoginSteps {
 		println ("\n I am inside Navigate to Login Page")
 	}
 
+	//Enter Username and Password
 	@When("User enters (.*) and (.*)")
 	def enterCredentials(String username, String password){
 		println ("\n I am inside to Enter username and password")
