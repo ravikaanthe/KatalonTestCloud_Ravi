@@ -60,6 +60,7 @@ class LoginSteps {
 		println ("password is " +password)
 	}
 
+	//Click on login button
 	@And("Click on login button")
 	def clickLogin() {
 		println ("\n I am inside to click on login")
