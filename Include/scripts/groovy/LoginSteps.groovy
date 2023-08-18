@@ -66,6 +66,7 @@ class LoginSteps {
 		println ("\n I am inside to click on login")
 	}
 
+	//validate navigation of home page
 	@Then("User is navigated to home page")
 	def VerifyHomePage() {
 		println ("I am inside home page")
